@@ -9,7 +9,7 @@ if country == '台灣':
 	    print ('No，你還不可以考駕照!!')
 
 
-if country == '美國':
+elif country == '美國':
 	if  age >= 16:
 	    print ('你可以考駕照了')
 	elif age < 16:
